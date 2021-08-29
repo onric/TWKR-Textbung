@@ -98,7 +98,7 @@ PRINTFORML "뭘 사고 싶어?"
 DRAWLINE
 LOCAL:1 = 0
 FOR LOCAL, 0, 50
-    IF ITEMNAME:(LOCAL+1000) != "홍마자유이용권"
+    IF ITEMNAME:(LOCAL+1000) == "홍마자유이용권"
         CONTINUE
     ENDIF
     IF ITEMNAME:(LOCAL+1000) != ""
